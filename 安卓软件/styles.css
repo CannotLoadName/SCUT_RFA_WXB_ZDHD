@@ -1,0 +1,24 @@
+body
+{
+  font-size:40pt;
+}
+h2
+{
+  color:Crimson;
+}
+td
+{
+  width:9em;
+  height:2em;
+}
+th
+{
+  width:6em;
+  height:5em;
+}
+button
+{
+  font-size:40pt;
+  width:5.5em;
+  height:2em;
+}

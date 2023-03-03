@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>无线杯作品</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <h2>无线杯作品</h2>
+    <table border=0>
+      <tr>
+        <td class="ltt">WIFI连接中：</td>
+        <td id="wifi"></td>
+      </tr>
+      <tr>
+        <td class="ltt">低水位电极被浸没：</td>
+        <td id="helec"></td>
+      </tr>
+      <tr>
+        <td class="ltt">中水位电极被浸没：</td>
+        <td id="melec"></td>
+      </tr>
+      <tr>
+        <td class="ltt">高水位电极被浸没：</td>
+        <td id="lelec"></td>
+      </tr>
+      <tr>
+        <td class="ltt">水温：</td>
+        <td id="temper"></td>
+      </tr>
+      <tr>
+        <td class="ltt">电容组电压：</td>
+        <td id="voltage"></td>
+      </tr>
+      <tr>
+        <td class="ltt">抽水中：</td>
+        <td id="pump"></td>
+      </tr>
+    </table>
+    <table border=0>
+      <tr>
+        <th>
+          <button onclick="start();"><font style="color:ForestGreen;">开始抽水</font></button>
+        </th>
+        <th>
+          <button onclick="stop();"><font style="color:FireBrick;">停止抽水</font></button>
+        </th>
+        <th>
+          <button onclick="reset();">重新连接</button>
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>
